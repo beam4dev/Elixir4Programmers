@@ -1,0 +1,10 @@
+<main class="px-4 py-20 sm:px-6 lg:px-8">
+  <h1>Welcome to Hangman!</h1>
+
+  <.link href={~p"/"} class="hangman-btn" >New Game</.link>
+  <div class="mx-auto max-w-2xl">
+    <.flash_group flash={@flash} />
+    <%= @inner_content %>
+  </div>
+</main>
+

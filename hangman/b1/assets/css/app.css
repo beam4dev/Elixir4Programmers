@@ -1,0 +1,38 @@
+/*This file is for your main application CSS 
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+*/
+
+@import "./phoenix.css";
+
+.status {
+    margin-bottom: 3vh;
+}
+
+.status.initializing {color: #d883c5 }
+.status.good-guess   {color: green}
+.status.bad-guess    {color: coral}
+.status.won          {color: dark-green; font-weight: bold; }
+.status.lost         {color: crimson; font-weight: bold; }
+.status.already-used {color: #caa }
+
+.tally th {
+    font-weight: normal;
+    color: #aaa;
+}
+
+.tally td {
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+}
+
+form input {
+    max-width: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
